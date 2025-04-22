@@ -13,7 +13,7 @@ import {setWalletRefreshCounter, selectWalletRefreshCounter} from '../../reduxSt
 
 import generalOpx from '../../functions/generalFunctions';
 
-const privileged_accts = ["tesemma.fin-us"];
+const privileged_accts = process.env.REACT_PRIVILEGED_ACCTS;
 const finux_chainOptns = [
     "Chain 0", "Chain 1", "Chain 2", "Chain 3",
     "Chain 4", "Chain 5", "Chain 6", "Chain 7",

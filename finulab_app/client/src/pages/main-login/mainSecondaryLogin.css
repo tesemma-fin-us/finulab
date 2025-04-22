@@ -1,0 +1,1465 @@
+.mediumSmallLoginWrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    overflow: hidden;
+    background-color: var(--secondary-bg-01);
+}
+.mediumSmallLoginWatchListContainer {
+    display: flex;
+    align-items: center;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 95px;
+    min-height: 95px;
+    max-height: 95px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: 0px;
+}
+.mediumSmallLoginWatchListContainer::-webkit-scrollbar {
+    width: 0px;
+}
+.mediumSmallLoginWatchListContainer::-webkit-scrollbar-track {
+    background-color: var(--secondary-bg-01);
+}
+.mediumSmallLoginWatchListContainer::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-bg-01);
+    border-radius: 0px;
+}
+.mediumSmallLoginFormBoxContainerTotalWrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: calc(100% - 95px);
+    min-height: calc(100% - 95px);
+    max-height: calc(100% - 95px);
+
+    overflow: hidden;
+}
+.mediumSmallLoginFormBoxContainerWrapper {
+    display: flex;
+    align-items: flex-start;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+
+    transition: transform 0.75s linear;
+}
+.mediumSmallLoginFormBoxSubWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.mediumSmallLoginFormBoxContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 85%;
+    min-width: auto;
+    max-width: 350px;
+
+    height: auto;  
+    margin-top: -115px;  
+    padding-bottom: 10px;
+
+    border: none;
+    border-radius: 15px;
+    background-color: var(--primary-bg-09);
+}
+.mediumSmallLoginFormBoxHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-amber-09);
+}
+.mediumSmallLoginFormBoxHeaderDesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-size: 0.75rem;
+    color: var(--primary-bg-05);
+}
+.mediumSmallLoginFormBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    margin-top: 15px;
+}
+.mediumSmallLoginFormBoxInput {
+    width: 85%;
+    min-width: 85%;
+    max-width: 85%;
+
+    font-size: 0.65rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    color: var(--primary-bg-04);
+    border: solid 1px var(--primary-bg-10);
+    background-color: var(--secondary-bg-02);   
+}
+.mediumSmallLoginFormBoxInput::placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallLoginFormBoxInput:-ms-input-placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallLoginFormBoxInput:focus {
+    outline: none;
+}
+.mediumSmallLoginFormBoxPasswordInputContainer {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mediumSmallLoginFormBoxPasswordInput {
+    position: absolute;
+
+    width: 85%;
+    min-width: 85%;
+    max-width: 85%;
+
+    font-size: 0.75rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    color: var(--primary-bg-04);
+    border: solid 1px var(--primary-bg-10);
+    background-color: var(--secondary-bg-02);  
+}
+.mediumSmallLoginFormBoxPasswordInput::placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallLoginFormBoxPasswordInput:-ms-input-placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallLoginFormBoxPasswordInput:focus {
+    outline: none;
+}
+.mediumSmallLoginFormBoxPasswordVisibilityBtn {
+    position: absolute;
+    top: -1.5px;
+    right: 7%;
+
+    font-weight: normal;
+    white-space: nowrap;
+    background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+.mediumSmallLoginFormBoxPasswordVisibilityIcon {
+    transform: scale(0.5);
+    color: var(--primary-bg-05);
+}
+.mediumSmallLoginFormSubmitBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 15px;
+    min-height: 15px;
+    max-height: 15px;
+
+    width: 42.5%;
+    min-width: 42.5%;
+    max-width: 42.5%;
+    padding: 1px;
+    font-size: 0.65rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: var(--secondary-bg-01);
+    background-color: var(--primary-green-07);
+}
+.mediumSmallLoginFormSubmitBtn:focus {
+    outline: none;
+}
+.mediumSmallLoginFormBoxAdditionalOptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    margin-top: 10px;
+}
+.mediumSmallLoginFormBoxAdditionalOptionsDividerContainer {
+    display: flex;
+    align-items: center;
+
+    width: 85%;
+    min-width: 85%;
+    max-width: 85%;
+
+}
+.mediumSmallLoginFormBoxAdditionalOptionsDividerFull {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 2px;
+    min-height: 2px;
+    max-height: 2px;
+
+    background-color: var(--primary-bg-08);
+}
+.mediumSmallLoginFormBoxAdditionalOptionsDivider {
+    width: calc((100% - 25px) / 2);
+    min-width: calc((100% - 25px) / 2);
+    max-width: calc((100% - 25px) / 2);
+
+    height: 2px;
+    min-height: 2px;
+    max-height: 2px;
+
+    background-color: var(--primary-bg-08);
+}
+.mediumSmallLoginFormBoxAdditionalOptionsDesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 15px;
+    min-width: 15px;
+    max-width: 15px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 0.65rem;
+    color: var(--primary-bg-05);
+}
+.mediumSmallLoginFormBoxAdditionalOptionsElementsOne {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 85%;
+    min-width: 85%;
+    max-width: 85%;
+
+    margin-top: 5px;
+}
+.mediumSmallLoginFormBoxAdditionalOptionsElements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 85%;
+    min-width: 85%;
+    max-width: 85%;
+
+    margin-top: 12.5px;
+    margin-bottom: 7.5px;
+}
+.mediumSmallLoginFormBoxAdditionalOptionsBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 15px;
+    min-height: 15px;
+    max-height: 15px;
+
+    width: 42.5%;
+    min-width: 42.5%;
+    max-width: 42.5%;
+    padding: 1px;
+    font-size: 0.65rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: var(--secondary-bg-01);
+    background-color: var(--primary-amber-09);
+}
+.mediumSmallLoginFormBoxAdditionalOptionsBtn:focus {
+    outline: none;
+}
+.mediumSmallLoginFormBoxGeneralInformationContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    margin-top: 5px;
+}
+.mediumSmallLoginFormBoxGeneralInformationSubContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mediumSmallLoginFormBoxGeneralInformationBtn {
+    font-size: 0.55rem;
+    font-weight: normal;
+    white-space: nowrap;
+
+    color: var(--primary-bg-05);
+
+    position: relative;
+    background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+.mediumSmallLoginFormBoxGeneralInformationBtnDivider {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 0.45rem;
+    color: var(--primary-bg-05);
+}
+.mediumSmallLoginFormBoxCopyrightDesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-size: 0.45rem;
+    font-weight: normal;
+    white-space: nowrap;
+    color: var(--primary-bg-05);
+
+    margin-top: 2px;
+}
+
+
+.mediumSmallSignUpWrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.mediumSmallSignUpWrapperHeader {
+    display: flex;
+    align-items: center;
+
+    margin-left: 15px;
+
+    width: calc(100% - 15px);
+    min-width: calc(100% - 15px);
+    max-width: calc(100% - 15px);
+}
+.mediumSmallSignUpWrapperHeaderDescCo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--primary-amber-09);
+}
+.mediumSmallSignUpWrapperHeaderDescCoUpdated {
+    margin-left: 15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--primary-amber-09);
+}
+.mediumSmallSignUpWrapperHeaderDescDetail {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--primary-bg-05);
+}
+.mediumSmallSignUpWrapperOptions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: calc(100% - 30px);
+    min-width: calc(100% - 30px);
+    max-width: calc(100% - 30px);
+
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mediumSmallSignUpOptionsBackBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 15px;
+    min-height: 15px;
+    max-height: 15px;
+
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+
+    padding: 1px;
+    font-size: 0.65rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: var(--secondary-bg-01);
+    background-color: var(--primary-blue-07);
+}
+.mediumSmallSignUpOptionsNextBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 15px;
+    min-height: 15px;
+    max-height: 15px;
+
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+
+    margin-left: auto;
+    padding: 1px;
+    font-size: 0.65rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: var(--secondary-bg-01);
+    background-color: var(--primary-green-07);
+}
+.mediumSmallSignUpFormTotalWrapper {
+    display: flex;
+    align-items: flex-start;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: calc(100% - 95px);
+    min-height: calc(100% - 95px);
+    max-height: calc(100% - 95px);
+
+    transition: transform 0.75s linear;
+} 
+
+
+.mediumSmallSignUpFormBoxWrapper {
+    width: calc(100% - 30px);
+    min-width: calc(100% - 30px);
+    max-width: calc(100% - 30px);
+
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mediumSmallSignUpFormBoxOne {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 15px;
+    margin-left: 15px;
+
+    width: calc(100% - 30px);
+    min-width: calc(100% - 30px);
+    max-width: calc(100% - 30px);
+
+    height: calc(100% - 15px);
+    min-height: calc(100% - 15px);
+    max-height: calc(100% - 15px);
+
+    background-color: var(--secondary-bg-01);
+}
+.mediumSmallSignUpFormBoxLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mediumSmallSignUpFormInput {
+    width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+
+    font-size: 0.7rem;
+    border-radius: 15px;
+    color: var(--primary-bg-04);
+    border: solid 1px var(--primary-bg-10);
+    background-color: var(--secondary-bg-02);   
+}
+.mediumSmallSignUpFormInput::placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallSignUpFormInput:-ms-input-placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallSignUpFormInput:focus {
+    outline: none;
+}
+.mediumSmallSignUpFormBoxOneLineTwo {
+    display: flex;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    margin-top: 10px;
+}
+.mediumSmallSignUpFormEmailInput {
+    width: calc(100% - 12px);
+    min-width: calc(100% - 12px);
+    max-width: calc(100% - 12px);
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    font-size: 0.7rem;
+    border-radius: 15px;
+    color: var(--primary-bg-04);
+    border: solid 1px var(--primary-bg-10);
+    background-color: var(--secondary-bg-02);   
+}
+.mediumSmallSignUpFormEmailInput::placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallSignUpFormEmailInput:-ms-input-placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallSignUpFormEmailInput:focus {
+    outline: none;
+}
+.mediumSmallSignUpFormBoxLineThree {
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    margin-top: 15px;
+}
+.mediumSmallSignUpFormLineHeader {
+    margin-bottom: 1.5px;
+    font-size: 0.75rem;
+    color: var(--primary-bg-05);
+}
+.mediumSmallSignUpFormBirthInput {
+    width: calc(33% - 12.5px);
+    min-width: calc(33% - 12.5px);
+    max-width: calc(33% - 12.5px);
+
+    -moz-appearance: none;
+    -webkit-appearance: none; 
+    appearance: none;
+
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-bottom: 1px;
+
+    border-radius: 15px;
+    border: solid 1px var(--primary-bg-10);
+
+    font-size: 0.7rem;
+    color: var(--primary-bg-05);
+    background-color: var(--secondary-bg-02);
+}
+.mediumSmallSignUpFormBirthInput:focus{
+    outline: none;
+}
+.mediumSmallSignUpFormBirthOptionsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mediumSmallSignUpFormGeneralAccountSetupContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+}
+.mediumSmallSignUpFormProfileImageActual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: var(--primary-amber-09);
+
+    width: 85px;
+    min-width: 85px;
+    max-width: 85px;
+
+    height: 85px;
+    min-height: 85px;
+    max-height: 85px;
+
+    border-radius: 15px;
+    background-color: var(--secondary-bg-02);
+}
+input[type="file"] {
+    display: none;
+}
+.mediumSmallSignUpFormUploadProfileImgLabel {
+    margin-top: -20px;
+    text-align: center;
+    color: var(--primary-bg-05);
+    font-size: 0.7rem;
+
+    cursor: pointer;
+}
+.mediumSmallSignUpFormProfileImageBtn {
+    font-weight: normal;
+    white-space: nowrap;
+
+    position: relative;
+    background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+.mediumSmallSignUpFormOneTimeCodeDesc {
+    width: 100%;
+    text-align: center;
+    color: var(--primary-bg-05);
+    font-size: 0.7rem;
+    white-space: nowrap;
+}
+.mediumSmallSignUpFormGeneralWatchlistSetupContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.mediumSmallSignUpFormGeneralSearchBarContainer {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.mediumSmallSignUpFormGeneralSearchBarSubContainer {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    position: relative;
+    font-size: 0.7rem;
+    border-radius: 15px;
+    color: var(--primary-bg-04);
+    border: solid 1px var(--primary-bg-10);
+    background-color: var(--secondary-bg-02);
+}
+.mediumSmallSignUpFormGeneralSearchIcon {
+    position: absolute;
+    transform: scale(0.65);
+    color: var(--primary-bg-05);
+}
+.mediumSmallSignUpFormSearchInput {
+    width: 85%;
+    margin-left: 25px;
+    border: none;
+    font-size: 0.70rem;
+    border-radius: 15px;
+    color: var(--primary-bg-04);
+    background-color: var(--secondary-bg-02);
+}
+.mediumSmallSignUpFormSearchInput::placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallSignUpFormSearchInput:-ms-input-placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallSignUpFormSearchInput:focus {
+    outline: none;
+}
+.mediumSmallSignUpFormGeneralSearchResultsContainer {
+    position: absolute;
+    top: 30px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+
+    max-height: 150px;
+
+    z-index: 99999;
+    border-radius: 10px;
+    background-color: var(--primary-bg-09);
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.mediumSmallSignUpFormGeneralSearchResults {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+
+    font-size: 0.65rem;
+    margin-left: 2.5%;
+    color: var(--primary-bg-01);
+}
+.mediumSmallSignUpFormGeneralSearchResultsLiBtn {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    
+    cursor: pointer;
+
+    position: relative;
+    background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+.mediumSmallSignUpFormGeneralSearchResultsLiBtn:not(:last-child) {
+    margin-bottom: 5px;
+}
+.mediumSmallSignUpFormGeneralSearchResultsLi {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mediumSmallSignUpFormGeneralSearchResultsLi:hover {
+    background-color: var(--primary-bg-08);
+}
+.mediumSmallSignUpFormGeneralSearchResultsImg {
+    flex: 2;
+
+    display: flex;
+    align-items: center;
+}
+.mediumSmallSignUpFormGeneralSearchResultsActualImg {
+    height: 27px;
+    min-height: 27px;
+    max-height: 27px;
+
+    width: 25px;
+    min-width: 25px;
+    max-width: 25px;
+
+    object-fit: contain;
+   
+    margin-left: 5px;
+    border-radius: 2.5px;
+}
+.mediumLargeSignUpFOrmGeneralSearchResultsQuickDesc {
+    flex: 2;
+}
+.mediumSmallSignUpFormGeneralSearchResultsActualQuickDesc {
+    margin-left: 5px;
+    white-space: nowrap;
+}
+.mediumSmallSignUpFormGeneralSearchResultsLongDesc {
+    flex: 5;
+
+    display: flex;
+    align-items: center;
+}
+.mediumSmallSignUpFormGeneralSearchResultsActualLongDesc {
+    margin-left: 5px;
+    white-space: nowrap;
+}
+.mediumSmallSignUpFormGeneralSearchResultsActualRemoveNoticeContainer {
+    margin-left: auto;
+    margin-right: 2.5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 17.5px;
+    min-width: 17.5px;
+    max-width: 17.5px;
+
+    height: 17.5px;
+    min-height: 17.5px;
+    max-height: 17.5px;
+    
+    border-radius: 50%;
+    border: dashed var(--primary-red-09) 2px;
+    background-color: var(--primary-bg-09);
+}
+.mediumSmallSignUpFormGeneralSearchResultsActualAddNoticeContainer {
+    margin-left: auto;
+    margin-right: 2.5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 17.5px;
+    min-width: 17.5px;
+    max-width: 17.5px;
+
+    height: 17.5px;
+    min-height: 17.5px;
+    max-height: 17.5px;
+    
+    border-radius: 50%;
+    border: dashed var(--primary-blue-09) 2px;
+    background-color: var(--primary-bg-09);
+}
+.mediumSmallSignUpFormGeneralSearchResultsLi:hover .mediumSmallSignUpFormGeneralSearchResultsActualRemoveNoticeContainer {
+    background-color: var(--primary-bg-08);
+}
+.mediumSmallSignUpFormGeneralSearchResultsLi:hover .mediumSmallSignUpFormGeneralSearchResultsActualAddNoticeContainer {
+    background-color: var(--primary-bg-08);
+}
+.mediumSmallSignUpFormSelectedWatchlistContainer {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-blue-09) var(--primary-bg-09);
+}
+.mediumSmallSignUpFormSelectedWatchlistContainer::-webkit-scrollbar {
+    height: 0px;
+}
+.mediumSmallSignUpFormSelectedWatchlistContainer::-webkit-scrollbar-track {
+    height: 0px;
+    border-radius: 0px;
+    background-color: var(--primary-bg-09);
+}
+.mediumSmallSignUpFormSelectedWatchlistContainer::-webkit-scrollbar-thumb {
+    border-radius:  0px;
+    background-color: var(--primary-blue-09);
+}
+.mediumSmallSignUpFormBoxGeneralWatchlistBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    border: solid 1px var(--primary-bg-10);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: var(--secondary-bg-02);
+}
+.mediumSmallSignUpFormBoxGeneralWatchlistBtnContainer:not(:last-child) {
+    margin-right: 10px;
+}
+.mediumSmallSignUpFormBoxGeneralWatchlistBtn {
+    font-size: 0.7rem;
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: center;
+
+    color: var(--primary-bg-05);
+
+    position: relative;
+    background: none;
+	border: none;
+    padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+.mediumSmallSignUpFormGeneralWatchlistSelectElements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: calc(100% - 60px);
+    min-height: calc(100% - 60px);
+    max-height: calc(100% - 60px);
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-blue-09) var(--primary-bg-09);
+}
+.mediumSmallSignUpFormGeneralWatchlistSelectElements::-webkit-scrollbar {
+    width: 2.5px;
+}
+.mediumSmallSignUpFormGeneralWatchlistSelectElements::-webkit-scrollbar-track {
+    width: 2.5px;
+    border-radius: 2.5px;
+    background-color: var(--primary-bg-09);
+}
+.mediumSmallSignUpFormGeneralWatchlistSelectElements::-webkit-scrollbar-thumb {
+    border-radius:  2.5px;
+    background-color: var(--primary-blue-09);
+}
+.mediumSmallSignUpFormWatchlistSelectLine {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    width: calc(100% - 5px);
+}
+.mediumSmallSignUpFormWatchlistOptionContainer {
+    position: relative;
+
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    width: 85px;
+    min-width: 85px;
+    max-width: 85px;
+
+    height: 85px;
+    min-height: 85px;
+    max-height: 85px;
+
+    padding: 0px;
+    border: solid 1px var(--primary-bg-10);
+    border-radius: 7.5px;
+    background-color: var(--secondary-bg-02);
+    margin-bottom: 15px;
+}
+.mediumSmallSignUpFormWatchlistOption {
+    margin-left: 7.5px;
+    border-radius: 50%;
+}
+.mediumSmallSignUpFormWatchlistOptionImg {
+    margin-left: calc((100% - 50px) / 2);
+
+    width: 47.5px;
+    min-width: 47.5px;
+    max-width: 47.5px;
+
+    height: 47.5px;
+    min-height: 47.5px;
+    max-height: 47.5px;
+
+    object-fit: contain;
+    border-radius: 7.5px;
+}
+.mediumSmallSignUpFormWatchlistOptionLabel {
+    margin-left: auto;
+    margin-right: auto;
+
+    white-space: nowrap;
+    text-align: center;
+    color: var(--primary-bg-04);
+    font-size: 0.7rem;
+}
+.mediumSmallSignUpFormWatchlistOptioLabelAdditionalDesc {
+    position: absolute;
+    top: 90px;
+
+
+    display: none;
+    text-align: center;
+    font-size: 0.7rem;
+    color: var(--primary-bg-04);
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7.5px;
+    white-space: wrap;
+    z-index: 999999;
+    background-color: var(--primary-bg-09);
+}
+.mediumSmallSignUpFormWatchlistOptionContainer:hover  .mediumSmallSignUpFormWatchlistOptioLabelAdditionalDesc {
+    display: flex;
+}
+.mediumSmallSignUpFormBoxOneLineNotice {
+    color: var(--primary-red-09);
+    font-size: 0.65rem;
+    margin-left: 15px;
+    margin-top: 1.5px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.mediumSmallSignUpFormBoxOneLineTwoPassword {
+    display: flex;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    margin-top: 15px;
+}
+.mediumSmallSignUpFormBoxOneLineTwoPasswordUpdate {
+    display: flex;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mediumSmallSignUpFormPasswordInput {
+    position: absolute;
+    
+    display: flex;
+    align-items: center;
+
+
+    width: calc(100% - 12px - 30px);
+    min-width: calc(100% - 12px - 30px);
+    max-width: calc(100% - 12px - 30px);
+
+    font-size: 0.70rem;
+    border-radius: 15px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    color: var(--primary-bg-04);
+    border: solid 1px var(--primary-bg-10);
+    background-color: var(--secondary-bg-02);
+}
+.mediumSmallSignUpFormPasswordInput::placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallSignUpFormPasswordInput:-ms-input-placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallSignUpFormPasswordInput:focus {
+    outline: none;
+}
+.mediumSmallSignUpFormBoxPasswordVisibilityBtn {
+    position: relative;
+    top: -1.75px;
+    left: 93%;
+
+    font-weight: normal;
+    white-space: nowrap;
+    background: none;
+	border: none;
+    margin:0;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+.mediumSmallSignUpFormBoxTwoLineNoticeContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2.5px;
+}
+.mediumSmallSignUpFormBoxTwoLineNotice {
+    display: flex;
+    align-items: center;
+
+    margin-top: -3.5px;
+    margin-left: 15px;
+}
+.mediumSmallSignUpFormBoxTwoLineNotice {
+    color: var(--primary-bg-05);
+    font-size: 0.7rem;
+    
+    margin-bottom: 0px;
+    margin-left: 2.5px;
+}
+.mediumSmallSignUpFormCorrect {
+    color: var(--primary-green-09);
+    transform: scale(0.5);
+}
+.mediumSmallSignUpFormOpen {
+    color: var(--primary-bg-05);
+    transform: scale(0.5);
+}
+.mediumSmallSignUpFormError {
+    color: var(--primary-red-09);
+    transform: scale(0.5);
+}
+.mediumSmallSignUpFormBoxTwoRequirements {
+    display: block;
+    list-style-type: none;
+    color: var(--primary-bg-05);
+    margin-left: 45px;
+    margin-top: -2.5px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+.mediumSmallSignUpFormBoxTwoLineNoticeSecondary {
+    display: flex;
+    align-items: center;
+
+    margin-top: -3.5px;
+}
+.mediumSmallSignUpFormBoxTwoLineNoticeSignUpError {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: var(--primary-bg-05);
+    font-size: 0.70rem;
+
+    margin-top: 1.5px;
+}
+.mediumLargeSignUpFormOneTimeCodeDescError {
+    position: absolute;
+    margin-top: 10px;
+    width: calc(100% - 30px);
+}
+.mediumSmallSignUpFormOneTimeCodeDescErrorDesc {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: var(--primary-red-09);
+    font-size: 0.7rem;
+    white-space: nowrap;
+    text-align: center;
+}
+.mediumSmallSignUpFormBoxOneTimeCodeUpdate {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 65%;
+    min-height: 65%;
+    max-height: 65%;
+
+    overflow: hidden;
+}
+.mediumSmallSignUpFormBoxDidntReceiveEmailOptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 120px;
+    min-height: 120px;
+    max-height: 120px;
+}
+.mediumSmallSignUpFormDidntReceiveEmailBtn {
+    font-weight: normal;
+    white-space: nowrap;
+
+    position: relative;
+    background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+.mediumSmallSignUpFormBoxDidntReceiveEmailForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    max-height: 0px;
+    transition: max-height 0.5s linear;
+    overflow: hidden;
+}
+.mediumSmallSignUpFormEmailUpdateInputContainerImp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.mediumSmallSignUpFormEmailUpdateInput {
+    width: 65%;
+
+    font-size: 0.70rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: var(--primary-bg-04);
+    border: solid 1px var(--primary-bg-10);
+    background-color: var(--secondary-bg-02);
+}
+.mediumSmallSignUpFormEmailUpdateInput::placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallSignUpFormEmailUpdateInput:-ms-input-placeholder {
+    color: var(--primary-bg-04);
+}
+.mediumSmallSignUpFormEmailUpdateInput:focus {
+    outline: none;
+}
+.mediumSmallSignUpOptionsUpdateEmailBtnNotResend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 21.5px;
+    min-height: 21.5px;
+    max-height: 21.5px;
+
+    width: 35%;
+
+    font-size: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: solid 1px var(--primary-bg-10);
+    border-bottom: solid 1px var(--primary-bg-10);
+    border-right: solid 1px var(--primary-bg-10);
+    border-left: none;
+    white-space: nowrap;
+    color: var(--secondary-bg-01);
+    background-color: var(--primary-amber-09);
+}
+.mediumSmallSignUpOptionsUpdateEmailBtnNotResend:focus {
+    outline: none;
+}
+.mediumSmallSignUpFormOneTimeCodeDescErrorDescEmail {
+    display: flex;
+    justify-content: center;
+
+
+    width: 100%;
+    margin: 0;
+    color: var(--primary-red-09);
+    font-size: 0.7rem;
+    text-align: center;
+}
+.mediumSmallSignUpOptionsUpdateEmailBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 15.5px;
+    min-height: 15.5px;
+    max-height: 15.5px;
+
+    width: 35%;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    white-space: nowrap;
+    margin-top: 15px;
+    color: var(--secondary-bg-01);
+    background-color: var(--primary-amber-09);
+}
+.mediumSmallSignUpOptionsUpdateEmailBtn:focus {
+    outline: none;
+}
+.mediumSmallSignUpFormProfileImageUpload {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mediumSmallSignUpFormProfileImageLoading {
+    display: flex;
+
+    width: 85px;
+    min-width: 85px;
+    max-width: 85px;
+
+    height: 85px;
+    min-height: 85px;
+    max-height: 85px;
+
+    border-radius: 15px;
+    background-color: var(--primary-bg-09);
+
+    animation: load-small-profileImage 2s linear 35;
+}
+@keyframes load-small-profileImage {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+.mediumSmallSignUpFormProfileImage {
+    width: 85px;
+    min-width: 85px;
+    max-width: 85px;
+
+    height: 85px;
+    min-height: 85px;
+    max-height: 85px;
+
+    object-fit:cover;
+    border-radius: 15px;
+}
+
+.mediumSmallSignUpFormBoxTwo {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 15px;
+    margin-left: 30px;
+
+    width: calc(100% - 30px);
+    min-width: calc(100% - 30px);
+    max-width: calc(100% - 30px);
+
+    height: calc(100% - 15px);
+    min-height: calc(100% - 15px);
+    max-height: calc(100% - 15px);
+
+    background-color: var(--secondary-bg-01);
+}
+.mediumSmallSignUpFormBoxThree {
+    position: relative;
+    top: 0px;
+    left: 200vw;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mediumSmallSignUpFormBoxLineTermsCheckBoxLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 35px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mediumSmallSignUpFormBoxLineTermsCheckBoxInput {
+    margin-right: 10px;
+}
+.mediumSmallSignUpFormBoxLineTermsCheckBoxLabel {
+    display: flex;
+    align-items: center;
+
+    white-space: nowrap;
+    font-weight: normal;
+    
+    font-size: 0.7rem;
+    color: var(--primary-bg-04);
+}
+.mediumSmallLoginWatchListContainer-stockandCryptosContainerLGI {
+    display: flex;
+
+    width: 185px;
+    min-width: 185px;
+    max-width: 185px;
+
+    height: 65px;
+    white-space: nowrap;
+}
+.mediumSmallLoginWatchListContainer-stockandCryptosContainerLGI:not(:last-child) {
+    margin-right: 15px;
+}

@@ -1,0 +1,326 @@
+.app-layoutWrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    /*
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-blue-09) var(--primary-bg-10);
+    */
+}
+/*
+.app-layoutWrapper::-webkit-scrollbar {
+    width: 2.5px;
+}
+.app-layoutWrapper::-webkit-scrollbar-track {
+    width: 2.5px;
+    border-radius: 2.5px;
+    background-color: var(--primary-bg-10);
+}
+.app-layoutWrapper::-webkit-scrollbar-thumb {
+    border-radius:  2.5px;
+    background-color: var(--primary-blue-09);
+}
+*/
+
+.app-largeViewWindowWrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.85);
+    /*background-color: rgba(255, 255, 255, 0.95);*/
+}
+.app-largeViewPageWrapper {
+    display: flex;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.app-smallViewFixedWindowWrapper {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(125, 125, 125, 0.35);
+}
+.app-largeViewFixedWindowWrapper {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(125, 125, 125, 0.35);
+}
+.app-largeViewFixedInnerWindowWrapper {
+    position: relative;
+
+    display: flex;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.app-largeViewLoginWindow {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    min-width: 500px;
+    max-width: 500px;
+
+    height: 450px;
+    min-height: 450px;
+    max-height: 450px;
+
+    border-radius: 15px;
+    background-color: var(--secondary-bg-03);
+    box-shadow: 0px 0px 3px var(--primary-bg-05);
+
+    animation-name: overlay-load;
+    animation-duration: 0.35s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-out;
+    animation-fill-mode: forwards;
+
+    left: calc(50vw - 250px);
+    bottom: calc(50vh - 225px);
+}
+.app-smallViewLogoutWindow {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    width: calc(100% - 20px);
+    max-width: 500px;
+
+    min-height: 372px;
+    max-height: 1000px;
+
+    border-radius: 7.5px;
+    background-color: var(--secondary-bg-03);
+    box-shadow: 0px 0px 3px var(--primary-bg-05);
+
+    overflow: hidden;
+}
+.app-largeViewLogoutWindow {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(50vh - 197.5px - 55px);
+
+    width: 85%;
+    max-width: 500px;
+
+    min-height: 372px;
+    max-height: 1000px;
+
+    border-radius: 7.5px;
+    background-color: var(--secondary-bg-03);
+    box-shadow: 0px 0px 3px var(--primary-bg-05);
+
+    overflow: hidden;
+}
+.app-largeViewLogoutWindowV2 {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(50vh - 91.5px - 55px);
+
+    width: 85%;
+    max-width: 500px;
+
+    height: 183px;
+    min-height: 183px;
+    max-height: 183px;
+
+    border-radius: 7.5px;
+    background-color: var(--secondary-bg-03);
+    box-shadow: 0px 0px 3px var(--primary-bg-05);
+
+    overflow: hidden;
+}
+.app-largeViewFixedInnerWindowSideFixers {
+    width: 386px;
+    min-width: 200px;
+    max-width: 386px;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.app-largeViewFixedInnerWindowMainFixer {
+    position: relative;
+    align-items: center;
+    flex: auto;
+    
+    margin-left: 3px;
+    margin-right: 7.5%;
+
+    min-width: calc(100% - 775px);
+    max-width: calc(100% - 405px);
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.app-largeViewPostWindow {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(50vh - 197.5px - 55px);
+
+    width: 85%;
+    max-width: 700px;
+
+    min-height: 372px;
+    max-height: 1000px;
+
+    border-radius: 7.5px;
+    background-color: var(--secondary-bg-03);
+    box-shadow: 0px 0px 3px var(--primary-bg-05);
+
+    overflow: hidden;
+}
+@keyframes post-overlay-load {
+    0% {
+        margin-top: calc(100vh + 2px);
+    }
+    100% {
+        margin-top: calc(50vh - 197.5px - 55px);
+    }
+}
+@keyframes overlay-load {
+    0% {
+        left: calc(50vw - 250px);
+        bottom: -450px;
+    }
+    100% {
+        left: calc(50vw - 250px);
+        bottom: calc(50vh - 225px);
+    }
+}
+
+
+.app-largeViewMediaSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.app-largeViewMediaSideToggleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    border-radius: 50%;
+    background-color: var(--secondary-bg-03);
+}
+.app-largeViewMediaSideToggleBtn:hover {
+    background-color: var(--primary-bg-08);
+}
+.app-largeViewMediaSideToggleBtnIcon {
+    transform: scale(1.25);
+    color: var(--primary-bg-01);
+}
+.app-largeMediaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: calc(100% - 120px);
+    min-width: calc(100% - 120px);
+    max-width: calc(100% - 120px);
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.app-largeMediaImg {
+    max-width: calc(100% - 60px);
+    max-height: calc(100% - 110px);
+
+    object-fit: contain;
+}

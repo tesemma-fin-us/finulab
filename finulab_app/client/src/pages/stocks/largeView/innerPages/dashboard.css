@@ -1,0 +1,514 @@
+.large-stocksDashboardMoreDataOptnBtn {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: calc(100% / 2);
+    min-width: calc(100% / 2);
+    max-width: calc(100% / 2);
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: var(--primary-bg-01);
+
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.large-stocksDashboardHeaderFinulabLogoContainer {
+    display: flex;
+    align-items: center;
+
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+
+    height: 26px;
+    min-height: 26px;
+    max-height: 26px;
+
+    overflow: hidden;
+}
+.large-stocksDashboardHeaderFinulabLogo {
+    transform: scale(11);
+
+    margin-left: -39px;
+
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    object-fit: contain;
+}
+.large-stocksDashboardMoreDataOptnUnderline {
+    position: absolute;
+    bottom: 0;
+
+    width: 35%;
+    min-width: 35%;
+    max-width: 35%;
+
+    height: 3px;
+    min-height: 3px;
+    max-height: 3px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: inherit;
+}
+.large-stockDashboardRankingsContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: calc(100% - 35% - 27px - 6px);
+    min-height: calc(100% - 35% - 27px - 6px);
+    max-height: calc(100% - 35% - 27px - 6px);
+
+    background-color: var(--secondary-bg-01);
+}
+.large-stockDashboardHeader {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: var(--primary-bg-01);
+
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.large-stockDashboardRankByOptionsContainer {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    z-index: 9;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 165px;
+    min-width: 165px;
+    max-width: 165px;
+
+    height: 120px;
+    min-height: 120px;
+    max-height: 120px;
+
+    border-radius: 10px;
+    background-color: #292929;
+}
+.large-stocksDashboardRankByOptionBtn {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 165px;
+    min-width: 165px;
+    max-width: 165px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    font-size: 1rem;
+    color: var(--primary-bg-05);
+
+	cursor: pointer;
+	outline: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    background-color: #292929;
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.large-stocksDashboardRankByOptionBtn:hover {
+    background-color: #151515;
+}
+.large-stocksDashboardRankByOptionBtnIcon {
+    margin-left: 5px;
+    margin-right: 5px;
+
+    transform: scale(0.8);
+    color: var(--primary-bg-05);
+}
+.large-stocksDashboardRankByOptionBtnSelectionIcon {
+    margin-left: auto;
+    margin-right: 5px;
+
+    transform: scale(0.8);
+    color: var(--primary-green-09);
+}
+.large-stocksDashboardRankSelectorBtn {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+    margin-left: auto;
+
+    font-size: 1.15rem;
+    color: var(--primary-bg-05);
+
+    border: none;
+	outline: none;
+    cursor: pointer;
+
+    background: none;
+}
+.large-stocksDashboardRankSelectorBtnIcon {
+    margin-top: 2px;
+    margin-left: 5px;
+    color: var(--primary-bg-05);
+}
+.large-stocksDashboardUnderlineHeader {
+    display: flex;
+    align-items: center;
+
+    margin-left: -1px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+
+    font-size: 1rem;
+    color: var(--primary-bg-05);
+
+    border-left: solid 1px var(--primary-bg-08);
+    border-right: solid 1px var(--primary-bg-08);
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.large-stocksDashboardUnderlineRank {
+    display: flex;
+    align-items: center;
+
+    margin-left: 55px;
+
+    width: 70px;
+    min-width: 70px;
+    max-width: 70px;
+}
+.large-stocksDashboardUnderlineName {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+}
+.large-stocksDashboardUnderlineVolume{
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: 15%;
+    min-width: 15%;
+    max-width: 15%;
+}
+.large-stocksDashboardUnderlineFigure {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: calc((100% - 45px - 70px - 25% - 50px) / 2);
+    min-width: calc((100% - 45px - 70px - 25% - 50px) / 2);
+    max-width: calc((100% - 45px - 70px - 25% - 50px) / 2);
+}
+.large-stocksDashboardBodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-left: -1px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    height: calc(100vh - 150px - 51px - 36px - 62px - 17px - 122px - 10px);
+    min-height: calc(100vh - 150px - 51px - 36px - 62px - 17px - 122px - 10px);
+    max-height: calc(100vh - 150px - 51px - 36px - 62px - 17px - 122px - 10px);
+
+    /*
+    height: calc(100% - 51px - 36px - 51px - 10px);
+    min-height: calc(100% - 51px - 36px - 51px - 10px);
+    max-height: calc(100% - 51px - 36px - 51px - 10px);
+    */
+
+    border-left: solid 1px var(--primary-bg-08);
+    border-right: solid 1px var(--primary-bg-08);
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.large-stocksDashboardBodyUnderline {
+    display: flex;
+    align-items: center;
+
+    margin-left: -1px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    border-left: solid 1px var(--primary-bg-08);
+    border-right: solid 1px var(--primary-bg-08);
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.large-stocksDashboardBodyDisplayToggler {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+
+    width: 85%;
+    min-width: 85%;
+    max-width: 85%;
+}
+.large-stocksDashboardBodyLine {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 10px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.large-stocksDashboardBodyLineBtn {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+    margin: 0;
+    text-align: left;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.large-stocksDashboardBodyLine:hover {
+    background-color: #151515;
+}
+.large-stocksDashboardBodyLineImg {
+    width: 45px;
+    min-width: 45px;
+    max-width: 45px;
+
+    height: 45px;
+    min-height: 45px;
+    max-height: 45px;
+
+    object-fit: contain;
+    border-radius: 5px;
+}
+.large-stocksDashboardBodyLineDesc {
+    display: block;
+
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.large-stocksDashboardBodyLineFigureDescOne {
+    display: block;
+
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.large-stocksDashboardBodyLineFigureDescTwo {
+    position: relative;
+
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+
+    margin-top: 5px;
+
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+
+    white-space: nowrap;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.large-stocksDashboardBodyLineRank {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: 70px;
+    min-width: 70px;
+    max-width: 70px;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-05);
+}
+.large-stocksDashboardBodyLineName {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-01);
+}
+.large-stocksDashboardBodyLineVolume {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: 15%;
+    min-width: 15%;
+    max-width: 15%;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-01);
+}
+.large-stocksDashboardBodyLineFigure {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: calc((100% - 45px - 70px - 25% - 50px) / 2);
+    min-width: calc((100% - 45px - 70px - 25% - 50px) / 2);
+    max-width: calc((100% - 45px - 70px - 25% - 50px) / 2);
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-01);
+}
+.large-stocksDashboardBodyLineFigureDescTwoGreenIcon {
+    color: var(--primary-green-09);
+    transform: scale(1.25);
+}
+.large-stocksDashboardBodyLineFigureDescTwoRedIcon {
+    color: var(--primary-red-09);
+    transform: scale(1.25);
+}
+.large-dashboardMarketsBody {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: calc(100% - 51px);
+    min-height: calc(100% - 51px);
+    max-height: calc(100% - 51px);
+
+    background-color: rgb(0, 0, 0);
+}
+.large-dashboardMarketsBody > *:last-child {
+    border-bottom: none;
+}
+.large-dashboardRightBarPredictionInnerContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+    margin-left: 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    height: 205px;
+    min-height: 205px;
+    max-height: 205px;
+
+    overflow: hidden;
+}
+.large-stocksDashboardUnderlineDesc {
+    display: flex;
+    align-items: center;
+
+    font-size: 1rem;
+    color: var(--primary-bg-05);
+}
+.large-stocksDashboardSelectedContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}

@@ -1,0 +1,120 @@
+:root {
+    --secondary-bg-01: rgba(255, 255, 255, 0.85);
+    --secondary-bg-02: #e1d7cd;
+    --secondary-bg-03: rgba(255, 255, 255, 1);
+
+    --primary-bg-01: #000000;
+    --primary-bg-02: #212121;
+    --primary-bg-03: #424242;
+    --primary-bg-04: #616161;
+    --primary-bg-05: #757575;
+    --primary-bg-06: #9E9E9E;
+    --primary-bg-07: #BDBDBD;
+    --primary-bg-08: #424242;
+    --primary-bg-09: #F5F5F5;
+    --primary-bg-10: #FAFAFA;
+
+    /*
+    --primary-bg-01: #FAFAFA;
+    --primary-bg-02: #F5F5F5;
+    --primary-bg-03: #E0E0E0;
+    --primary-bg-04: #BDBDBD;
+    --primary-bg-05: #9E9E9E;
+    --primary-bg-06: #757575;
+    --primary-bg-07: #616161;
+    --primary-bg-08: #424242;
+    --primary-bg-09: #212121;
+    --primary-bg-10: #000000;
+    */
+    --primary-green-00: #7b7f7d;
+    --primary-green-01: #71897b;
+    --primary-green-02: #68927a;
+    --primary-green-03: #5e9c78;
+    --primary-green-04: #54a677;
+    --primary-green-05: #4baf75;
+    --primary-green-06: #41b974;
+    --primary-green-07: #38c272;
+    --primary-green-08: #38c272;
+    --primary-green-09: #2ecc71;
+  
+    --primary-red-00: #939090;
+    --primary-red-01: #9b8a88;
+    --primary-red-02: #a4837f;
+    --primary-red-03: #ac7c77;
+    --primary-red-04: #b4756f;
+    --primary-red-05: #bd6e66;
+    --primary-red-06: #c5675e;
+    --primary-red-07: #ce6155;
+    --primary-red-08: #d65a4d;
+    --primary-red-09: #df5344;
+    
+    --primary-blue-00: #909393;
+    --primary-blue-01: #879a9c;
+    --primary-blue-02: #7fa0a4;
+    --primary-blue-03: #77a7ac;
+    --primary-blue-04: #6eaeb5;
+    --primary-blue-05: #66b5bd;
+    --primary-blue-06: #5dbcc6;
+    --primary-blue-07: #55c2ce;
+    --primary-blue-08: #4cc9d7;
+    --primary-blue-09: #44d0df;
+    --primary-blue-10: #006ee6;
+
+    --primary-amber-00: #c3b8a9;
+    --primary-amber-01: #c9b8a3;
+    --primary-amber-02: #cfb99d;
+    --primary-amber-03: #d4ba98;
+    --primary-amber-04: #daba92;
+    --primary-amber-05: #e0bb8c;
+    --primary-amber-06: #e5bc87;
+    --primary-amber-07: #ebbd81;
+    --primary-amber-08: #f0bd7c;
+    --primary-amber-09: rgb(242, 127, 22);
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+
+    width: calc(100vw - env(safe-area-inset-right) - env(safe-area-inset-left));
+    min-width: calc(100vw - env(safe-area-inset-right) - env(safe-area-inset-left));
+    max-width: calc(100vw - env(safe-area-inset-right) - env(safe-area-inset-left));
+
+    height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+    min-height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+    max-height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+
+    font-family: "Roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    overflow: auto;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+
+    background-image: linear-gradient(#016EE7, #231F20, #016EE7);
+}
+
+input:focus {
+    outline: none;
+}
+input::placeholder {
+    font-family: "Roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button:focus {
+    outline: none;
+}
+button {
+    font-family: "Roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+textarea {
+    font-family: "Roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

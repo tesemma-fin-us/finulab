@@ -1,0 +1,438 @@
+.miniPortfolio-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    background-color: var(--secondary-bg-03);
+}
+.miniPortfolio-predictionPurchaseHeaderImgLoading {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    border-radius: 5px;
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.miniPortfolio-predictionTopLineLoading {
+    width: 75px;
+    min-width: 75px;
+    max-width: 75px;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.miniPortfolio-predictionHeaderDescQuestionLoading {
+    margin-top: auto;
+
+    width: 185px;
+    min-width: 185px;
+    max-width: 185px;
+
+    height: 14px;
+    min-height: 14px;
+    max-height: 14px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.miniPortfolio-header {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--primary-bg-05);
+}
+.miniPortfolio-headerOwnershipDesc {
+    display: block;
+    
+    margin-top: 5px;
+
+    max-width: 90%;
+
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--primary-bg-05);
+}
+.miniPortfolio-headerOwnershipDescLoading {
+    margin-top: 5px;
+
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+
+    height: 15px;
+    min-height: 15px;
+    max-height: 15px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.miniPortfolio-topLineLoading {
+    width: 41px;
+    min-width: 41px;
+    max-width: 41px;
+
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.miniPortfolio-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 8px;
+    margin-left: calc(6px + 40px + 10px);
+
+    width: calc(100% - 6px - 40px - 10px);
+    min-width: calc(100% - 6px - 40px - 10px);
+    max-width: calc(100% - 6px - 40px - 10px);
+}
+.miniPortfolio-bodyImg {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+
+    height: 90px;
+    min-height: 90px;
+    max-height: 90px;
+
+    border-radius: 7.5px;
+    object-fit: cover;
+}
+.miniPorfolio-bodyChartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: calc(80% - 16px);
+    min-width: calc(80% - 16px);
+    max-width: calc(80% - 16px);
+
+    height: 90px;
+    min-height: 90px;
+    max-height: 90px;
+}
+.miniPortfolio-closedResolutionContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.miniPortfolio-closedResultionOutcomeContainer {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.miniPortfolio-closedResolutionImg {
+    width: 49px;
+    min-width: 49px;
+    max-width: 49px;
+
+    height: 49px;
+    min-height: 49px;
+    max-height: 49px;
+
+    rotate: 5deg;
+    color: var(--primary-green-09);
+}
+.miniPortfolio-closedResolutionImgV2 {
+    width: 49px;
+    min-width: 49px;
+    max-width: 49px;
+
+    height: 49px;
+    min-height: 49px;
+    max-height: 49px;
+
+    rotate: -15deg;
+    color: var(--primary-red-09);
+}
+.miniPortfolio-closedResolutionDescContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 16px;
+
+    height: 49px;
+    min-height: 49px;
+    max-height: 49px;
+}
+.miniPortfolio-closeResolutionHeaderDesc {
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--primary-bg-05);
+}
+.mini-Portfolio-closedResultionBodyDesc {
+    margin-top: auto;
+    margin-bottom: auto;
+
+    white-space: nowrap;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--primary-bg-01);
+}
+.miniPortfolio-bodyReturnContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 20%;
+    min-width: 20%;
+    max-width: 20%;
+
+    height: 90px;
+    min-height: 90px;
+    max-height: 90px;
+}
+.miniPortfolio-bodyChartLoading {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+
+    border-radius: 7.5px;
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.miniPortfolio-bodyReturnBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: black;
+
+    white-space: nowrap;
+
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    border-radius: 7.5px;
+    background: inherit;
+}
+.miniPortfolio-bodyReturnBtnLoading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    border-radius: 7.5px;
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.miniPortfolio-furterDescContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 15px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+}
+.miniPortfolio-furterDesc {
+    display: flex;
+    align-items: center;
+
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+}
+.miniPortfolio-furterDescIcon {
+    margin-right: 5px;
+    color: var(--primary-bg-05);
+}
+.miniPortfolio-bodyImgDesc {
+    display: block;
+
+    margin-left: 5px;
+
+    width: calc(100% - 24px);
+    min-width: calc(100% - 24px);
+    max-width: calc(100% - 24px);
+
+    white-space: nowrap;
+    font-size: 0.95rem;
+    color: var(--primary-bg-05);
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.miniPortfolio-bodyImgDescSecondary {
+    white-space: nowrap;
+    font-size: 0.95rem;
+    color: var(--primary-bg-05);
+}
+.miniPortfolio-topLine {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--primary-bg-05);
+}
+.miniPortfolio-topLineGavelIcon {
+    margin-left: 3px;
+    margin-right: 7.5px;
+
+    width: 10px;
+    min-width: 10px;
+    max-width: 10px;
+
+    height: 10px;
+    min-height: 10px;
+    max-height: 10px;
+
+    transform: scale(1.5);
+    color: var(--primary-bg-05);
+}
+.miniPortfolio-topLineBlinker {
+    margin-right: 5px;
+
+    width: 10px;
+    min-width: 10px;
+    max-width: 10px;
+
+    height: 10px;
+    min-height: 10px;
+    max-height: 10px;
+
+    border-radius: 50%;
+    background-color: var(--primary-red-09);
+
+    animation: smooth-blink 2s ease-in-out infinite;
+}
+@keyframes smooth-blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.35;
+    }
+}
+.miniPortfolio-underline {
+    display: flex;
+    align-items: center;
+
+    margin-top: auto;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 4px;
+    min-height: 4px;
+    max-height: 4px;
+
+    overflow: hidden;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    background-color: rgba(75, 75, 75, 0.3);
+}
+.miniPortfolio-underlineFill {
+    z-index: 9;
+
+    height: 4px;
+    min-height: 4px;
+    max-height: 4px;
+
+    overflow: hidden;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: linear-gradient(to right, #f0f2f04c, #014d82);
+}

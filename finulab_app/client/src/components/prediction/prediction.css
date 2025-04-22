@@ -1,0 +1,1134 @@
+.prediction-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    background-color: var(--secondary-bg-01);
+}
+.prediction-header {
+    display: flex;
+    align-items: center;
+
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.prediction-categoryContainerLoading {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 93px;
+    min-width: 93px;
+    max-width: 93px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    border-radius: 37px;
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-categoryContainer {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    color: inherit;
+    cursor: pointer;
+
+    font: inherit;
+    outline: inherit;
+
+    border-radius: 37px;
+    border: none;
+    background-color: rgba(50, 50, 50, 1);
+}
+.prediction-categoryImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    margin-left: -1px;
+
+    width: 25px;
+    min-width: 25px;
+    max-width: 25px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    overflow: hidden;
+    border-radius: 50%;
+}
+.prediction-categoryImg {
+    transform: scale(2);
+
+    width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    border-radius: 50%;
+    object-fit: contain;
+}
+.prediction-categoryDesc {
+    display: flex;
+    align-items: center;
+
+    margin-left: 7.5px;
+    margin-right: 10px;
+
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--primary-bg-01);
+}
+.prediction-endsDescContainer {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+
+    white-space: nowrap;
+    font-size: 0.95rem;
+    color: var(--primary-bg-05);
+}
+.prediction-endsDescIcon {
+    margin-top: -1px;
+    margin-right: 5px;
+    color: var(--primary-bg-05);
+}
+.prediction-endsDescLoading {
+    display: flex;
+
+    width: 126px;
+    min-width: 126px;
+    max-width: 126px;
+
+    height: 18px;
+    min-height: 18px;
+    max-height: 18px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-endsDesc {
+    margin-left: 5px;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--primary-bg-01);
+}
+.prediction-secondaryHeader {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.prediction-profileImgLoading {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    border-radius: 3px;
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-profileImg {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    object-fit: cover;
+    border-radius: 3px;
+}
+.prediction-profileImgEmpty {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    border-radius: 3px;
+
+    overflow: hidden;
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.prediction-profileImgEmptyIcon {
+    margin-top: auto;
+    margin-left: 10px;
+    margin-bottom: -3px;
+
+    scale: 1.85;
+    color: transparent;
+    stroke-width: 0.2px;
+    stroke: #FBDE44FF;
+    stroke-opacity: 0.5;
+}
+.prediction-creatorDescContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 5px;
+}
+.prediction-creatorDescTopLoading {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 11px;
+    min-height: 11px;
+    max-height: 11px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-creatorDescTop {
+    white-space: nowrap;
+    font-size: 0.75rem;
+    color: var(--primary-bg-05);
+}
+.prediction-creatorDescUnderline {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--primary-bg-01);
+}
+.prediction-creatorDescUnderlineLoading {
+    margin-top: 3px;
+
+    width: 115px;
+    min-width: 115px;
+    max-width: 115px;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-highFiguresContainerLoading {
+    margin-left: auto;
+
+    width: 185px;
+    min-width: 185px;
+    max-width: 185px;
+
+    height: 24px;
+    min-height: 24px;
+    max-height: 24px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-highFiguresContainer {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+}
+.prediction-highFigureDesc {
+    display: flex;
+    align-items: center;
+
+    margin-right: 15px;
+}
+.prediction-highFigureDescIcon {
+    color: var(--primary-bg-05);
+    width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+}
+.prediction-highFigureDescText {
+    margin-left: 5px;
+    white-space: nowrap;
+    font-size: 0.75rem;
+    color: var(--primary-bg-01);
+}
+.prediction-highFigureDescImg {
+    margin-left: 1px;
+
+    width: 22px;
+    min-width: 22px;
+    max-width: 22px;
+
+    height: 22px;
+    min-height: 22px;
+    max-height: 22px;
+}
+.prediction-ownershipHeader {
+    display: flex;
+
+    margin-top: 15px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-size: 0.95rem;
+    color: var(--primary-bg-05);
+}
+.prediction-ownershipHeaderIcon {
+    margin-top: -7px;
+    margin-right: 5px;
+    color: var(--primary-bg-05);
+}
+.prediction-marketDescContainer {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: calc(100% - 40px);
+    max-width: 450px;
+
+    border-radius: 7.5px;
+    box-shadow: 0px 0px 2px var(--primary-bg-05);
+}
+.prediction-marketDescReviewPredictionBtn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    display: flex;
+    align-items: center;
+
+    width: 135px;
+    min-width: 135px;
+    max-width: 135px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    border-radius: 5px;
+
+    outline: none;
+    cursor: pointer;
+    border: solid 1px var(--primary-bg-10);
+
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--primary-bg-01);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(50, 50, 50, 0.45);
+}
+.prediction-marketDescReviewPredictionTwoBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    display: flex;
+    align-items: center;
+
+    width: 140px;
+    min-width: 140px;
+    max-width: 140px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    border-radius: 5px;
+
+    outline: none;
+    cursor: pointer;
+    border: solid 1px var(--primary-bg-10);
+
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--primary-bg-01);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(50, 50, 50, 0.45);
+}
+.prediction-marketDescReviewPredictionBtnIcon {
+    margin-left: -3px;
+    margin-right: 3px;
+    color: var(--primary-bg-01);
+}
+.prediction-marketDescImg {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: auto;
+    max-height: 35vh;
+
+    object-fit: cover;
+    border-top-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+}
+.prediction-miniaturizedMarketDescImg {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: calc(((100vh - 140px) / 3) * 0.5);
+    min-height: calc(((100vh - 140px) / 3) * 0.5);
+    max-height: calc(((100vh - 140px) / 3) * 0.5);
+
+    object-fit: cover;
+    border-top-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+}
+.prediction-marketDescQuestion {
+    display: flex;
+
+    margin-top: 10px;
+    margin-left: 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--primary-bg-01);
+}
+.prediction-miniaturizedMarketDescQuestion {
+    display: flex;
+
+    margin-top: 10px;
+    margin-left: 5px;
+
+    width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: calc(100% - 10px);
+
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--primary-bg-01);
+}
+.prediction-marketQuickPurchaseOptionContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 45px;
+    min-height: 45px;
+    max-height: 45px;
+}
+.prediction-marketQuickPurchaseOptnBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--primary-bg-03);
+    
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+    background: inherit;
+
+    animation-name: glisten-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes glisten-animation {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0.8;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.prediction-miniaturizedQuickTradeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+
+    width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: calc(100% - 10px);
+}
+.prediction-purchaseYesBtn {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+
+    width: calc(50% - 10px);
+    min-width: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+
+    height: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    
+    font-size: .8rem;
+    font-weight: 700;
+    color: #000;
+    
+    border: none;
+    outline: inherit;
+    cursor: pointer;
+    
+    border-radius: 5px;
+    background-color: var(--primary-green-09);
+}
+.prediction-purchaseNoBtn {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+
+    width: calc(50% - 10px);
+    min-width: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+
+    height: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    
+    font-size: .8rem;
+    font-weight: 700;
+    color: #000;
+    
+    border: none;
+    outline: inherit;
+    cursor: pointer;
+    
+    border-radius: 5px;
+    background-color: var(--primary-red-09);
+}
+.predictionPurchaseBtnImg {
+    margin-left: -2px;
+
+    width: 21px;
+    min-width: 21px;
+    max-width: 21px;
+
+    height: 21px;
+    min-height: 21px;
+    max-height: 21px;
+    
+    object-fit: cover;
+}
+
+.prediction-TitleHeader {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.prediction-bodyImgMain {
+    width: 64px;
+    min-width: 64px;
+    max-width: 64px;
+
+    height: 64px;
+    min-height: 64px;
+    max-height: 64px;
+
+    object-fit: cover;
+    border-radius: 3px;
+}
+.prediction-TitleHeaderDescContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 5px;
+
+    width: calc(100% - 64px - 5px);
+    min-width: calc(100% - 64px - 5px);
+    max-width: calc(100% - 64px - 5px);
+
+    height: 56px;
+    min-height: 56px;
+    max-height: 56px;
+}
+.prediction-TitleHeaderAskedByNewDescCont {
+    display: flex;
+    align-items: flex-end;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    text-align: left;
+    background: none;
+	color: inherit;
+	border: none;
+    margin: 0;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.prediction-TitileHeaderAskedByProfilePicLoading {
+    width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    border-radius: 3px;
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-TitileHeaderAskedByProfilePic {
+    width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    object-fit: cover;
+    border-radius: 3px;
+}
+.prediction-TitleHeaderAskedByProfileDesc {
+    display: flex;
+    align-items: center;
+
+    margin-left: 7.5px;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    font-size: 0.95rem;
+    color: var(--primary-bg-05);
+}
+.prediction-TitleHeaderAskedByProfileDescLoading {
+    margin-left: 5px; 
+
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+
+    height: 18px;
+    min-height: 18px;
+    max-height: 18px;
+
+   background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-titleDescLoading {
+    margin-top: auto;
+
+    width: 328px;
+    min-width: 328px;
+    max-width: 328px;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-titleDesc {
+    display: block;
+
+    margin-top: auto;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--primary-bg-01);
+}
+
+.prediction-bodySimpleChartContainer {
+    display: flex;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 350px;
+    min-height: 350px;
+    max-height: 350px;
+
+    overflow: hidden;
+}
+.prediction-titleUnderlineContainer {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.prediction-VerifiedIcon {
+    margin-right: -8px;
+    transform: scale(0.7);
+    color: var(--primary-blue-11);
+}
+.prediction-titleUnderlineChartHeader {
+    display: flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-05);
+}
+.prediction-bodyOutcomeContainer {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-left: -10px;
+
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    border-top: solid 1px var(--primary-bg-08);
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.prediction-bodyOutcomeRefreshContainer {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+
+    font-size: 0.8rem;
+    color: var(--primary-bg-05);
+}
+.prediction-bodyOutcomeRefreshContainerIcon {
+    width: 19px;
+    min-width: 19px;
+    max-width: 19px;
+
+    height: 19px;
+    min-height: 19px;
+    max-height: 19px;
+}
+.prediction-bodyOutcomeRefreshBtn {
+    width: 19px;
+    min-width: 19px;
+    max-width: 19px;
+
+    height: 19px;
+    min-height: 19px;
+    max-height: 19px;
+
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    margin-left: 5px;
+    border-radius: 3px;
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.prediction-bodyOutcomeRefreshBtn:hover {
+    box-shadow: 0px 0px 2px var(--primary-bg-05);
+}
+.prediction-outcomeContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.prediction-outcomeTopContainer {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+    
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    text-align: left;
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+    background: inherit;
+}
+.prediction-outcomeImgLoading {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    border-radius: 5px;
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-outcomeImgYN {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    
+    color: var(--primary-bg-07);
+}
+.prediction-outcomeImg {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    object-fit: cover;
+    border-radius: 5px;
+}
+.prediction-outcomeOvrlHighProbabilityLoading {
+    margin-left: 7.5px;
+
+    width: 75px;
+    min-width: 75px;
+    max-width: 75px;
+
+    height: 47px;
+    min-height: 47px;
+    max-height: 47px;
+}
+.prediction-outcomeOvrlHighProbabilityInnerLoading {
+    margin-top: 4.5px;
+
+    width: 75px;
+    min-width: 75px;
+    max-width: 75px;
+
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-marketDescChancesDescContainerLoading {
+    width: 323px;
+    min-width: 323px;
+    max-width: 323px;
+
+    height: 15px;
+    min-height: 15px;
+    max-height: 15px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prediction-outcomeTopDescContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 5px;
+
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+}
+.prediction-outcomeName {
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--primary-bg-01);
+}
+.prediction-outcomeCostFunction {
+    display: flex;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--primary-bg-05);
+}
+.prediction-outcomeCostFunctionIcon {
+    width: 15px;
+    min-width: 15px;
+    max-width: 15px;
+
+    height: 15px;
+    min-height: 15px;
+    max-height: 15px;
+
+    color: var(--primary-bg-05);
+}
+.prediction-outcomeTopChancePerc {
+    margin-left: auto;
+    font-size: 35px;
+    color: var(--primary-bg-01);
+}
+.prediction-outcomeUnderlineContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 10px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.prediction-outcomeUnderlineContainerNoTradingInfoContainer {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.prediction-outcomeUnderlineCOntainerNoTradingInfoDesc {
+    display: block;
+
+    width: calc(100% - 30px - 5px);
+    min-width: calc(100% - 30px - 5px);
+    max-width: calc(100% - 30px - 5px);
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    font-size: 17px;
+    color: var(--primary-bg-05);
+}
+.prediction-outcomeUnderlineContainerNoTradingInfoYesIcon {
+    color: var(--primary-green-09);
+
+    width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+}
+.prediction-outcomeUnderlineContainerNoTradingInfoNoIcon {
+    color: var(--primary-red-09);
+
+    width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+}
+
+.prediction-outcomeRulesDescriptionContainForReviewHeader {
+    display: flex;
+
+    margin-top: 10px;
+    margin-bottom: 3px;
+    
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--primary-bg-05);
+}
+.prediction-outcomeRulesDescriptionContainForReview {
+    display: flex;
+
+    margin-bottom: 10px;
+    
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-size: 0.8rem;
+    color: var(--primary-bg-01);
+}

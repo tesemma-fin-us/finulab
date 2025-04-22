@@ -1,0 +1,28 @@
+{
+  "name": "api-finuxnetwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "obsaol-tesemma",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "dotenv": "^16.4.6",
+    "express": "^4.21.1",
+    "form-data": "^4.0.2",
+    "helmet": "^8.0.0",
+    "mailgun.js": "^12.0.1",
+    "mongoose": "^8.8.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "pact-lang-api": "^4.3.6"
+  }
+}

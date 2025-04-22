@@ -1,0 +1,552 @@
+.small-homePageWrapper {
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+
+    background-color: var(--secondary-bg-03);
+}
+.small-homePageLeftSideWrapperSupport {
+    display: flex;
+
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+}
+.small-homePageLeftSideWrapper {
+    position: absolute;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 99999;
+
+    width: 0px;
+    min-width: 0px;
+    max-width: 0px;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    transition: all 0.15s linear;
+
+    background-color: var(--secondary-bg-03);
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.small-homePageLeftSideWrapper::-webkit-scrollbar {
+    width: 0;
+    background: transparent; 
+}
+.small-homePageRightSideWrapper {
+    position: absolute;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 99999;
+
+    width: 0px;
+    min-width: 0px;
+    max-width: 0px;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    transition: all 0.15s linear;
+
+    background-color: var(--secondary-bg-03);
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.small-homePageRightSideWrapper::-webkit-scrollbar {
+    width: 0;
+    background: transparent; 
+}
+.small-homePageLeftSideProfileImg {
+    margin-top: 5px;
+    margin-left: 10px;
+
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    object-fit: cover;
+    border-radius: 3px;
+}
+.small-homePageLeftSideInnerWrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: auto;
+    padding: 0px 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    height: calc(100% - 40px - 5px);
+    min-height: calc(100% - 40px - 5px);
+    max-height: calc(100% - 40px - 5px);
+}
+.small-homePageLeftSideUserDescContainer {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--primary-bg-01);
+}
+.small-homePageLeftSideCommunityNameDesc {
+    display: block;
+
+    width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.small-homePageLeftSideCommunityNotifsCounter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+
+    width: 18px;
+    min-width: 18px;
+    max-width: 18px;
+
+    height: 18px;
+    min-height: 18px;
+    max-height: 18px;
+
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: var(--primary-bg-10);
+
+    border-radius: 50%;
+    background-color: red;
+}
+.small-homePageLeftSideUserDescCommunitiesToggleContainer {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+}
+.small-homePageLeftSideUserDescMyCommunitiesToggleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 18px;
+    min-width: 18px;
+    max-width: 18px;
+
+    height: 18px;
+    min-height: 18px;
+    max-height: 18px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    border-radius: 3px;
+    background: inherit;
+}
+.small-homePageLeftSideUserDescMyCommunitiesToggleBtn:hover {
+    box-shadow: 0px 0px 2px var(--primary-bg-05);
+}
+.small-homePageLeftSideUserDescMyCommunitiesToggleBtnIcon {
+    color: var(--primary-bg-01);
+}
+.small-homePageLeftSideUserDescIcon {
+    margin-left: 5px;
+
+    width: 19px;
+    min-width: 19px;
+    max-width: 19px;
+
+    height: 19px;
+    min-height: 19px;
+    max-height: 19px;
+
+    transform: scale(0.85);
+    color: var(--primary-blue-11);
+}
+.small-homePageLeftSideActionOptnsBtn {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.small-homePageLeftSideActionOptnsBtnIcon {
+    color: var(--primary-bg-01);
+}
+.small-homePageLeftSideActionOptnsBtnDesc {
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--primary-bg-01);
+}
+.small-homePageLeftSideDivider {
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-bottom: 12px;
+
+    width: calc(100% + 20px);
+    min-width: calc(100% + 20px);
+    max-width: calc(100% + 20px);
+
+    height: 1px;
+    min-height: 1px;
+    max-height: 1px;
+
+    background-color: var(--primary-bg-08);
+}
+.small-homePageLeftSideMyCommunitiesContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.small-homePageLeftSideMyCommunitiesInsideContainerWrapper {
+    display: flex;
+    align-items: flex-start;
+
+    margin-left: 16px;
+
+    width: calc(100% - 16px);
+    min-width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
+
+    overflow: hidden;
+}
+.small-homePageLeftSideMyCommunitiesInsideContainerInsideWrapper {
+    display: flex;
+    align-items: flex-start;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    transition: all 0.15s linear;
+}
+.small-homePageLeftSideMyCommunitiesInsideContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.small-homePageLeftSideCommunityImg {
+    margin-top: 12px;
+
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    object-fit: cover;
+    border-radius: 3px;
+}
+.small-leftbarTokenFlowImg {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: calc(100% - 331px);
+    min-height: calc(100% - 331px);
+    max-height: calc(100% - 331px);
+
+    object-fit: contain;
+}
+.sm-headerLogoImg {
+    transform: scale(12);
+    margin-left: 43px;
+
+    width: 29px;
+    min-width: 29px;
+    max-width: 29px;
+
+    height: 36px;
+    min-height: 36px;
+    max-height: 36px;
+
+    object-fit: contain;
+}
+.sm-viewLeftBarSearchContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.sm-viewLeftBarSearchSearchHidden {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.sm-FinuxFinulabLeftBarLoggedInImg {
+    margin-top: 17.5px;
+    
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: calc(100% - 76px - 35px);
+    min-height: calc(100% - 76px - 35px);
+    max-height: calc(100% - 76px - 35px);
+
+    object-fit: contain;
+}
+.small-leftBarPaddingBottom {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 75px;
+    min-height: 75px;
+    max-height: 75px;
+}
+.small-homePageContainer {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    min-height: 100vh;
+
+    overflow-x: hidden;
+    background-color: var(--secondary-bg-03);
+}
+.small-homePageVail {
+    position: absolute;
+
+    display: flex;
+
+    z-index: 9999;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(125, 125, 125, 0.05);
+}
+.small-homePageContentHeader {
+    position: fixed;
+    z-index: 999;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+
+    overflow: hidden;
+    transition: all 0.15s linear;
+
+    background-color: rgba(0, 0, 0, 1);
+    
+    border-left: solid 1px var(--primary-bg-08);
+    border-right: solid 1px var(--primary-bg-08);
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.small-homePageContentHeaderTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    overflow: hidden;
+}
+.small-homeContentHeaderTopLeft {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+.small-homeContentHeaderTopRight {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+.finulab-smViewWatchlistContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 35px;
+    min-width: 35px;
+    max-width: 35px;
+
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+
+    overflow: hidden;
+
+    border-radius: 3px;
+    background-color: var(--secondary-bg-03);
+}
+.small-homeCOntentHeaderLeftImgBtn {
+    background: none;
+	color: inherit;
+	border: none;
+    margin: 0;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.small-homeCOntentHeaderLeftImg {
+    width: 35px;
+    min-width: 35px;
+    max-width: 35px;
+
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+
+    object-fit: cover;
+    border-radius: 50%;
+}
+.small-homeContentHeaderMiddle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    width: calc(100% - 100px);
+    min-width: calc(100% - 100px);
+    max-width: calc(100% - 100px);
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+.small-homeCOntentHeaderMiddleLogoImg {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    object-fit: contain;
+}
+.small-homePageContentHeaderUnderline {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.sm-searchPageNoResult {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.sm-searchPageNoResultIcon {
+    margin-top: 135px;
+    transform: scale(10);
+    color: var(--primary-bg-08);
+}

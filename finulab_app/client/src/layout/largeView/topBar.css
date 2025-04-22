@@ -1,0 +1,330 @@
+.large-TopbarWrapper {
+    display: flex;
+    align-items: center;
+
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    height: 55px;
+    min-height: 55px;
+    max-height: 55px;
+
+    background-color: var(--secondary-bg-01);
+}
+.large-TopbarContainer {
+    display: flex;
+    align-items: center;
+    
+    margin-left: 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+}
+.large-TopbarFinulabIconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 45px;
+    min-width: 45px;
+    max-width: 45px;
+
+    height: 45px;
+    min-height: 45px;
+    max-height: 45px;
+
+    overflow: hidden;
+}
+.large-TopbarFinulabIconImg {
+    width: 45px;
+    min-width: 45px;
+    max-width: 45px;
+
+    height: 45px;
+    min-height: 45px;
+    max-height: 45px;
+
+    transform: scale(3);
+}
+
+.large-TopbarBuiltOnSearchContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10px;
+
+    width: 402px;
+    min-width: 402px;
+    max-width: 402px;
+
+    height: 45px;
+    min-height: 45px;
+    max-height: 45px;
+
+    overflow: hidden;
+}
+.large-TopbarBuiltOnSearchInsideContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 402px;
+    min-width: 402px;
+    max-width: 402px;
+
+    height: 45px;
+    min-height: 45px;
+    max-height: 45px;
+
+    transition: all 0.25s linear;
+}
+.large-TopbarSearchWrapper {
+    display: flex;
+    align-items: center;
+
+    width: 402px;
+    min-width: 402px;
+    max-width: 402px;
+
+    height: 45px;
+    min-height: 45px;
+    max-height: 45px;
+}
+.large-TopbarBuiltOnImg {
+    width: 35px;
+    min-width: 35px;
+    max-width: 35px;
+
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+}
+.large-TopbarBuiltonDescContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 20px;
+
+    height: 45px;
+    min-height: 45px;
+    max-height: 45px;
+
+    font-size: 2.5rem;
+    color: var(--primary-bg-05);
+}
+.large-TopbarBuiltonDescText {
+    margin-top: -15px;
+    white-space: nowrap;
+    font-size: 0.75rem;
+    color: var(--primary-bg-07);
+}
+.large-TopbarSearchContainer {
+    display: flex;
+    align-items: center;
+    
+    margin-left: 1px;
+
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    border-radius: 25px;
+    background-color: var(--secondary-bg-02);
+    box-shadow: 0 0 2px var(--primary-bg-05);
+}
+.large-TopbarSearchIcon {
+    margin-left: 3px;
+
+    color: var(--primary-bg-05);
+    transform: scale(0.9);
+}
+.large-TopbarSearchInput {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    margin-left: 3px;
+
+    width: calc(100% - 35px);
+    min-width: calc(100% - 35px);
+    max-width: calc(100% - 35px);
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    font-size: 1rem;
+    color: var(--primary-bg-01);
+
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: var(--secondary-bg-02);
+}
+.large-TopbarSearchInput::placeholder {
+    color: var(--primary-bg-05);
+}
+
+
+.large-TopbarOptionsContainer {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+}
+.large-TopbarPageViewOptionsContainer {
+    display: flex;
+    align-items: center;
+}
+.large-TopbarPageViewOptnInnerContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.large-TopbarPageViewOptnInnerContainer:not(:last-of-type) {
+    margin-right: 25px;
+}
+.large-TopbarPageViewOptnIcon {
+    color: var(--primary-bg-07);
+}
+.large-TopbarPageViewOptnIcon_selected {
+    color: var(--primary-bg-02);
+}
+.large-TopbarPageViewOptnIcon_apps {
+    transform: scale(1.2);
+    color: var(--primary-bg-07);
+}
+.large-TopbarPageViewOptnDesc {
+    color: var(--primary-bg-05);
+    font-size: 0.8rem;
+}
+.large-TopbarPageViewOptnDesc_selected {
+    color: var(--primary-bg-01);
+    font-size: 0.8rem;
+}
+.large-TopbarDivider {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    width: 1px;
+    min-width: 1px;
+    max-width: 1px;
+
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+
+    background-color: var(--primary-bg-03);
+}
+.large-TopbarViewModeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 10px;
+
+    width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    border-radius: 50%;
+    background-color: var(--primary-amber-09);
+}
+.large-TopbarProfileContainer {
+    display: flex;
+    align-items: center;
+    
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+    border-radius: 45px;
+    box-shadow: 0 0 2px var(--primary-bg-05);
+}
+.large-TopbarProfileImg {
+    width: 34px;
+    min-width: 34px;
+    max-width: 34px;
+
+    height: 34px;
+    min-height: 34px;
+    max-height: 34px;
+
+    object-fit: cover;
+    border-radius: 50%;
+}
+.large-TopbarProfileDesc {
+    margin-left: 5px;
+    margin-right: 7.5px;
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-bg-01);
+}
+.large-TopbarProfileNonUserBtn {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-bg-01);
+
+    background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+.large-TopbarProfileNotificationsDesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 7.5px;
+
+    width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: white;
+
+    border-radius: 50%;
+    background-color: red;
+}

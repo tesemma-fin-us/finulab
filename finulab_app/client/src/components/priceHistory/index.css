@@ -1,0 +1,351 @@
+.priceHistory-datesContainer {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.priceHistory-datesInputDivider {
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--primary-bg-01);
+}
+.priceHistory-datesInputInnerContainer {
+    display: flex;
+    flex-direction: column;
+}
+.priceHistory-datesInputDesc {
+    display: flex;
+    align-items: center;
+
+    margin-left: 1px;
+    margin-bottom: 3px;
+
+    white-space: nowrap;
+    font-size: 0.75rem;
+    color: var(--primary-bg-05);
+}
+.priceHistory-datesInput {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+
+    cursor: pointer;
+
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--primary-bg-01);
+
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px var(--primary-bg-05);
+
+    border: none;
+    background-color: inherit;
+}
+.priceHistory-datesInput::-webkit-inner-spin-button,
+.priceHistory-datesInput::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: auto;
+    height: auto;
+
+    cursor: pointer;
+
+    color: transparent;
+    background: transparent;
+}
+.priceHistory-datesBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 17px;
+    margin-left: 10px;
+
+    border-radius: 5px;
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.priceHistory-datesBtn:hover {
+    box-shadow: 0px 0px 2px var(--primary-bg-05);
+}
+.priceHistory-datesBtnIcon {
+    color: var(--primary-bg-05);
+    transform: scale(0.8);
+}
+.priceHistory-datesBtn:hover .priceHistory-datesBtnIcon {
+    color: var(--primary-bg-01);
+}
+.priceHistory-csvExportBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 17px;
+    margin-left: auto;
+
+    border-radius: 5px;
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.priceHistory-csvExportBtn:hover {
+    box-shadow: 0px 0px 2px var(--primary-bg-05);
+}
+.priceHistory-csvExportBtnIcon {
+    color: var(--primary-bg-05);
+    transform: scale(0.8);
+}
+.priceHistory-csvExportBtn:hover .priceHistory-csvExportBtnIcon {
+    color: var(--primary-bg-01);
+}
+.priceHistory-headersContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 465px;
+    min-height: 465px;
+    max-height: 465px;
+}
+.priceHistory-header {
+    display: flex;
+    align-items: center;
+
+    margin-left: 16px;
+    
+    width: calc(100% - 16px);
+    min-width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
+}
+.priceHistory-headerDateColumn {
+    display: flex;
+    align-items: center;
+
+    width: 20%;
+    min-width: 20%;
+    max-width: 20%;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    overflow: hidden;
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.priceHistory-headerColumn {
+    display: flex;
+    align-items: center;
+
+    width: calc(80% / 5);
+    min-width: calc(80% / 5);
+    max-width: calc(80% / 5);
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    overflow: hidden;
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.priceHistory-headerColumnDesc {
+    display: block;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--primary-bg-05);
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.priceHistory-headerColumnDescLoading {
+    width: 64px;
+    min-width: 64px;
+    max-width: 64px;
+
+    height: 15px;
+    min-height: 15px;
+    max-height: 15px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.priceHistory-headerBodyDesc {
+    display: block;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--primary-bg-01);
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.priceHistory-headerBodyDescLoading {
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+
+    height: 15px;
+    min-height: 15px;
+    max-height: 15px;
+
+    background-color: var(--primary-bg-08);
+
+    animation-name: glisten-profile-animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.priceHistory-translateOptnsContainer {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 24px;
+    min-height: 24px;
+    max-height: 24px;
+}
+.priceHistory-TranslateBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.priceHistory-TranslateBtn:hover {
+    box-shadow: 0px 0px 2px var(--primary-bg-05);
+}
+.priceHistory-TranslateBtnIcon {
+    color: var(--primary-bg-05);
+    transform: scale(1.2);
+}
+.priceHistory-TranslateBtn:hover .priceHistory-TranslateBtnIcon {
+    color: var(--primary-bg-01);
+}
+.priceHistory-translateOptnsInnerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: calc(100% - 48px);
+    min-width: calc(100% - 48px);
+    max-width: calc(100% - 48px);
+}
+.priceHistory-translateOptnBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 24px;
+    min-width: 24px;
+    max-width: 24px;
+
+    height: 24px;
+    min-height: 24px;
+    max-height: 24px;
+
+    font-size: 0.8rem;
+    color: var(--primary-bg-05);
+
+    border-radius: 5px;
+
+    background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+.priceHistory-translateOptnBtn:hover {
+    color: var(--primary-bg-01);
+    box-shadow: 0px 0px 2px var(--primary-bg-05);
+}
+.priceHistory-noticeProvider {
+    position: absolute;
+    top: 40px;
+    right: 3px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    width: calc(80% - 10px);
+    min-width: calc(80% - 10px);
+    max-width: calc(80% - 10px);
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: var(--primary-bg-01);
+
+    border-radius: 5px;
+    background-color: var(--secondary-bg-03);
+    box-shadow: 0px 0px 2px var(--primary-bg-05);
+
+    transition: all 0.75s ease-in-out;
+}

@@ -1,0 +1,425 @@
+.finulab-createPostWrapper {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: -1px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    width: calc(100% - 32px);
+    min-width: calc(100% - 32px);
+    max-width: calc(100% - 32px);
+
+    min-height: calc(100% - 51px);
+
+    background-color: var(--secondary-bg-03);
+    border-left: solid 1px var(--primary-bg-08);
+    border-right: solid 1px var(--primary-bg-08);
+}
+.finulab-createPostBtnSmall {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-10);
+
+    border-radius: 25px;
+    background-color: var(--primary-bg-01);
+}
+.finulab-createPostBtn {
+    position: absolute;
+    top: -40px;
+    right: 10px;
+
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-10);
+
+    border-radius: 25px;
+    background-color: var(--primary-bg-01);
+}
+.make-postHeader {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--primary-bg-01);
+}
+.make-postHeaderImg {
+    margin-right: 10px;
+
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    object-fit: cover;
+    border-radius: 3px;
+}
+.make-postHeaderDescContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+.make-PostCommunitySelectionOptnsContainer {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 9;
+
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+
+    min-height: 40px;
+    max-height: 300px;
+
+    border-radius: 7.5px;
+    border: solid 1px var(--primary-bg-06);
+    background-color: var(--secondary-bg-03);
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.make-PostCommunitySelectionOptnsContainer::-webkit-scrollbar {
+    width: 0;
+    background: transparent; 
+}
+.make-PostCommunitySelectionOptnsNoneJoinedNote {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-05);
+}
+.make-PostCommunitySelectionBtn {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    outline: none;
+    cursor: pointer;
+
+    text-align: left;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--primary-bg-01);
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    background-color: var(--secondary-bg-03);
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.make-PostCommunitySelectionBtnDescContainer {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+}
+.make-PostCommunitySelectionBtnDescImg {
+    width: 24px;
+    min-width: 24px;
+    max-width: 24px;
+
+    height: 24px;
+    min-height: 24px;
+    max-height: 24px;
+
+    object-fit: cover;
+    border-radius: 3px;
+}
+.make-PostCommunitySelectionBtnDescTxt {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: calc(100% - 24px - 10px);
+    min-width: calc(100% - 24px - 10px);
+    max-width: calc(100% - 24px - 10px);
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+}
+.make-PostCommunitySelectionBtnDescInnerTxt {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.make-PostCommunitySelectionOptnsNoneJoinedNoteIcon {
+    transform: scale(2.5);
+    margin-top: -45px;
+    margin-bottom: 30px;
+}
+.make-postActualPostInputWrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 2px);
+    min-width: calc(100% - 2px);
+    max-width: calc(100% - 2px);
+
+    border-radius: 7.5px;
+    border: solid 1px var(--primary-bg-08);
+}
+.make-postActualPostInputWrapper:focus-within {
+    border: solid 1px var(--primary-bg-06);
+}
+.make-postActualPostInputErrorDescContainer {
+    display: flex;
+    align-items: center;
+
+    margin-top: -10px;
+    margin-bottom: 5px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 15px;
+    min-height: 15px;
+    max-height: 15px;
+
+    font-size: 0.75rem;
+    color: var(--primary-red-09);
+}
+.make-postInputSecondaryBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 16px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: calc(100vh - 51px - 24px - 50px  - 24px - 16px - 130px - 16px - 24px - 3px - 16px - 57px - 16px - 10px);
+    min-height: calc(100vh - 51px - 24px - 50px  - 24px - 16px - 130px - 16px - 24px - 3px - 16px - 57px - 16px - 10px);
+    max-height: calc(100vh - 51px - 24px - 50px  - 24px - 16px - 130px - 16px - 24px - 3px - 16px - 57px - 16px - 10px);
+}
+.make-postInputSecondaryBox .ql-snow .ql-editor a {
+    text-decoration: none;
+}
+.make-postInputSecondaryBox .ql-container.ql-snow {
+    border: none;
+}
+.make-postInputSecondaryBox .ql-editor {
+    padding: 0;
+    
+    margin-top: 5px;
+    margin-left: 10px;
+
+    width: calc(100% - 15px);
+    min-width: calc(100% - 15px);
+    max-width: calc(100% - 15px);
+}
+.make-postInputSecondaryBox .ql-container {
+    font-size: 1rem;
+
+    height: calc(100% - 55px);
+    min-height: calc(100% - 55px);
+    max-height: calc(100% - 55px);
+}
+.make-postInputSecondaryBox .ql-editor.ql-blank::before {
+    font-style: normal;
+    left: 0;
+    color: var(--primary-bg-05);
+}
+.make-postInputSecondaryBox .ql-toolbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    padding-left: 0;
+    padding-right: 0;
+
+    border: none;
+    border-bottom: solid 1px var(--primary-bg-08);
+}
+.make-postTaggingOptionsContainer {
+    display: flex;
+    align-items: center;
+
+    margin-top: 16px;
+    margin-left: 5px;
+    margin-bottom: 16px;
+
+    width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: calc(100% - 10px);
+
+    height: 57px;
+    min-height: 57px;
+    max-height: 57px;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+.make-postTaggingOptionsContainer::-webkit-scrollbar {
+    display: none;
+
+    width: 0;
+    background: transparent; 
+}
+.make-postMainNoticeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 57px;
+    min-height: 57px;
+    max-height: 57px;
+}
+.make-postFinulabContentMotto {
+    display: flex;
+    align-items: center;
+
+    margin-left: 5px;
+
+    width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: calc(100% - 10px);
+}
+.make-postFinulabContentMottoDesc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: calc(100% - 20px - 5px - 50px);
+    min-width: calc(100% - 20px - 5px - 50px);
+    max-width: calc(100% - 20px - 5px - 50px);
+
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: var(--primary-bg-05);
+}
+.make-postFinulabContentMottoDescLink {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+
+    font-style: normal;
+    font-weight: 500;
+    color: var(--primary-blue-11);
+}
+.finulab-createPostMediaAddDesc {
+    display: flex;
+    align-items: center;
+    
+    margin-left: 10px;
+
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--primary-bg-05);
+}
+.finulab-createPostMediaAddOptnsBtnsContainer {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: 5px;
+}

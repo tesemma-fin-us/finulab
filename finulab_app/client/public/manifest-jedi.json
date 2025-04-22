@@ -1,0 +1,14 @@
+{
+    "short_name": "Finulab",
+    "name": "Finulab from Finux Inc.",
+    "description": "An on-chain social media, with a prediction market, where you can earn crypto for content and fees on your predictions.",
+    "icons": [
+        {
+            "src": "https://finulab.com/assets/Finulab_Icon.png",
+            "type": "image/png"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff"
+}

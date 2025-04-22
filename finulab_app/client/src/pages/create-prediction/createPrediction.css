@@ -1,0 +1,1090 @@
+.finulab-createPredictionWrapper {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: -1px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: calc(100 * 1000vh);
+
+    background-color: var(--secondary-bg-03);
+    border-left: solid 1px var(--primary-bg-08);
+    border-right: solid 1px var(--primary-bg-08);
+}
+.finulab-createPredictionContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 16px;
+
+    width: calc(100% - 32px);
+    min-width: calc(100% - 32px);
+    max-width: calc(100% - 32px);
+}
+.finulab-createPredictionheaderWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 10.5px;
+    margin-left: -5px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.finulab-createPredictionHeaderEndsDate {
+    display: flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-05);
+}
+.finulab-createPredictionHeaderWrapperBorderBottom {
+    margin-top: 10.5px;
+    margin-left: -16px;
+
+    width: calc(100% + 32px);
+    min-width: calc(100% + 32px);
+    max-width: calc(100% + 32px);
+
+    height: 1px;
+    min-height: 1px;
+    max-height: 1px;
+
+    background-color: var(--primary-bg-08);
+}
+.finulab-createPredictionBody {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.finulab-createPredictionCreatorWrapper {
+    display: flex;
+    align-items: flex-start;
+
+    margin-top: 16px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.finulab-createPredictionCreatorImg {
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    object-fit: cover;
+    border-radius: 3px;
+}
+.finulab-createPredictionCreatorDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-left: 10px;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    width: calc(100% - 50px - 10px);
+    min-width: calc(100% - 50px - 10px);
+    max-width: calc(100% - 50px - 10px);
+}
+.finulab-createPredictionCreatorDesc {
+    white-space: nowrap;
+    font-size: 0.75rem;
+    color: var(--primary-bg-05);
+}
+.finulab-createPredictionCreatorFullDesc {
+    display: flex;
+    align-items: center;
+
+    margin-top: -4px;
+    white-space: nowrap;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-01);
+}
+.finulab-createPredictionCreatorFullDescIcon {
+    margin-left: 5px;
+    transform: scale(0.65);
+    color: var(--primary-blue-11);
+}
+.finulab-createPredictionCreatorCategorynChainSelectDiv {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.finulab-createPredictionCreateChainSelect {
+    display: flex;
+    align-items: center;
+
+    margin-top: 16px;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    margin-left: auto;
+    padding-left: 10px;
+
+    width: 125px;
+    min-width: 125px;
+    max-width: 125px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    outline: none;
+    font-size: 1.05rem;
+
+    color: var(--primary-bg-01);
+    border-radius: 3px;
+    border: solid 1px var(--primary-bg-08);
+    background-color: var(--secondary-bg-03);
+
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2725%27 height=%2725%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27white%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3E%3Cpolyline points=%276 9 12 15 18 9%27%3E%3C/polyline%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+.prediction-headerCategoryDescrptionSelectionBtn {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 7.5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    border: none;
+    outline: none;
+
+    border-radius: 25px;
+    background-color: var(--secondary-bg-02);
+}
+.prediction-headerCategoryDescrptionSelectionIcon {
+    margin-top: 2.5px;
+    margin-left: -10px;
+    transform: scale(0.8);
+    color: var(--primary-bg-01);
+}
+.prediction-createAPredictionImage {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: calc(100% - 2px);
+    min-width: calc(100% - 2px);
+    max-width: calc(100% - 2px);
+
+    height: 198px;
+    min-height: 198px;
+    max-height: 198px;
+
+    border-radius: 3px;
+    object-fit: contain;
+
+    border: solid 1px var(--primary-bg-08);
+    background-color: var(--secondary-bg-03);
+}
+.prediction-createAPredictionImageNoticeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    border-radius: 50%;
+    border: dashed 1px var(--primary-bg-01);
+}
+.prediction-createAPredictionImageNoticeIcon {
+    color: var(--primary-bg-01);
+}
+.prediction-createAPredictionImageNoticeDesc {
+    display: block;
+
+    margin-top: 5px;
+
+    width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: calc(100% - 10px);
+
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    font-weight: bold;
+    font-size: 0.75rem;
+    color: var(--primary-bg-01);
+}
+.finulab-createPredictionDescriptionWrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 16px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.finulab-createPredictionDescAvailableBalanceDesc {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    color: var(--primary-bg-05);
+}
+.prediction-descriptionWrapperTextInnerContiner {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.prediction-createAPredictionTopLevelDescription {
+    display: flex;
+    align-items: center;
+
+    width: calc(100% - 6px);
+    min-width: calc(100% - 6px);
+    max-width: calc(100% - 6px);
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--primary-bg-01);
+    background-color: var(--secondary-bg-02);
+
+    outline: none;
+    border: none;
+
+    border-radius: 5px;
+}
+.prediction-descriptionWrapperTextInnerContainerTitle {
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--primary-bg-01);
+}
+.prediction-outcomesSelectionBtnsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-left: auto;
+
+    width: calc(100% - 112px);
+    min-width: calc(100% - 112px);
+    max-width: calc(100% - 112px);
+}
+.prediction-outcomesSelectedBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: var(--secondary-bg-03);
+
+    outline: none;
+    cursor: pointer;
+
+    border-radius: 25px;
+    border: solid 1px var(--primary-bg-01);
+    background-color: var(--primary-bg-01);
+}
+.prediction-outcomesUnselectedBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: var(--primary-bg-01);
+
+    outline: none;
+    cursor: pointer;
+
+    border-radius: 25px;
+    border: solid 1px var(--primary-bg-01);
+    background-color: var(--secondary-bg-03);
+}
+.finulab-predictionOutcomeSpecificContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 16px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.finulab-createPredictionspecificOutcomePurchaseOptionsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.prediction-createaMarketSubmitContainer {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.finulab-CreatePredictionHeaderCostDesc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-top: 16px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-05);
+}
+.prediction-createaMarketSumbitBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-bottom: 10px;
+
+    width: 135px;
+    min-width: 135px;
+    max-width: 135px;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: black;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: #2ecc71;
+}
+.prediction-createaMarketQuantitySpeciferOuterCont {
+    display: flex;
+    flex-direction: column;
+
+    width: calc((100% - 20px) / 2);
+    min-width: calc((100% - 20px) / 2);
+    max-width: calc((100% - 20px) / 2);
+}
+.prediction-createaMarketQuantitySpecifierInnerContHeader {
+    display: block;
+
+    margin-bottom: 8px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font-size: 0.85rem;
+    color: var(--primary-bg-05);
+}
+.prediction-createaMarketQuantitySpecifierInnerCont {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 37px;
+    min-height: 37px;
+    max-height: 37px;
+
+    border-radius: 3px;
+    border: solid 1px var(--primary-bg-08);
+}
+.prediction-createaMarketQuantitySpecifierInnerCont:has(input:focus) {
+    border: solid 1px var(--primary-bg-01);
+}
+.prediction-marketPurchaseAmountAdjustContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 6px;
+    margin-right: 6px;
+
+    width: 25px;
+    min-width: 25px;
+    max-width: 25px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    
+    outline: none;
+    cursor: pointer;
+
+    border-radius: 5px;
+    color: var(--primary-bg-03);
+    border: solid 1px var(--primary-bg-08);
+    background-color: var(--secondary-bg-01);
+}
+.prediction-marketPurchaseAmountSpecifyDirect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: calc(100% - 24px - 25px - 25px);
+    min-width: calc(100% - 24px - 25px - 25px);
+    max-width: calc(100% - 24px - 25px - 25px);
+
+    height: 37px;
+    min-height: 37px;
+    max-height: 37px;
+
+    border: none;
+    outline: none;
+
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--primary-bg-01);
+
+    background-color: var(--secondary-bg-03);
+}
+.prediction-outcomeSummarySupportnonImageUpload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 37px;
+    min-width: 37px;
+    max-width: 37px;
+
+    height: 37px;
+    min-height: 37px;
+    max-height: 37px;
+
+    border-radius: 3px;
+    border: solid 1px var(--primary-bg-08);
+    background-color: var(--secondary-bg-03);
+}
+.prediction-outcomeSummarySupportImage {
+    width: 39px;
+    min-width: 39px;
+    max-width: 39px;
+
+    height: 39px;
+    min-height: 39px;
+    max-height: 39px;
+
+    object-fit: cover;
+    border-radius: 3px;
+}
+.prediction-outcomeSummarySupportnonImageUploadIconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    border-radius: 50%;
+    border: dashed 1px var(--primary-bg-01);
+}
+.prediction-outcomeSummarySupportnonImageUploadIconContainerIcon {
+    color: var(--primary-bg-01);
+    transform: scale(0.75);
+}
+.prediction-createaMarketOptionDescriptionandImageOptionsContainer {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: calc(100% - 39px - 10px);
+    min-width: calc(100% - 39px - 10px);
+    max-width: calc(100% - 39px - 10px);
+}
+.prediction-createaMarketInputOutcomeSpecify {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    padding-top: 0;
+    padding-bottom: 0;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    width: calc(70% - 12px - 10px);
+    min-width: calc(70% - 12px - 10px);
+    max-width: calc(70% - 12px - 10px);
+
+    height: 37px;
+    min-height: 37px;
+    max-height: 37px;
+    
+    outline: none;
+    border-radius: 3px;
+
+    font-size: 1rem;
+    color: var(--primary-bg-01);
+
+    border: solid 1px var(--primary-bg-08);
+    background-color: var(--secondary-bg-03);
+}
+.prediction-createaMarketInputOutcomeSpecify:focus {
+    border: solid 1px var(--primary-bg-01);
+}
+.prediction-createaMarketChangeOutcomesProfileImageBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 10px;
+
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    white-space: nowrap;
+
+    font-size: 0.90rem;
+    font-weight: bold;
+    color: var(--primary-bg-10);
+
+    border-radius: 39px;
+    background-color: var(--primary-bg-01);
+}
+.prediction-createaMarketRulesSpecification {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+
+    padding: 8px;
+
+    width: calc(100% - 16px);
+    min-width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    border: none;
+    outline: none;
+
+    font-size: 1rem;
+    color: var(--primary-bg-01);
+
+    resize: none;
+
+    border-radius: 3px;
+    border: solid 1px var(--primary-bg-08);
+    background-color: var(--secondary-bg-03);
+}
+.prediction-createaMarketRulesSpecification:focus {
+    border: solid 1px var(--primary-bg-01);
+}
+.prediction-createaMarketValidationLinkSpecifierInput {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    margin-bottom: 16px;
+
+    width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: calc(100% - 10px);
+
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+
+    
+    outline: none;
+    border-radius: 5px;
+
+    font-size: 1rem;
+    color: var(--primary-bg-01);
+
+    border: solid 1px var(--primary-bg-08);
+    background-color: var(--secondary-bg-03);
+}
+.prediction-createaMarketValidationLinkSpecifierInput:focus {
+    border: solid 1px var(--primary-bg-01);
+}
+.prediction-createSelectaCategoryDetailContainer {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 16px;
+    top: 150px;
+
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+
+    z-index: 999;
+    border-radius: 7.5px;
+    border: solid 1px var(--primary-bg-08);
+    background-color: var(--secondary-bg-03);
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.prediction-createSelectaCategoryDetailContainer::-webkit-scrollbar {
+    width: 0;
+    background: transparent; 
+}
+.prediction-createSelectaCategoryBtn {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+    white-space: nowrap;
+
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--primary-bg-03);
+
+	cursor: pointer;
+    background: none;
+}
+.prediction-createSelectaCategoryImg {
+    margin-left: 5px;
+    margin-right: 10px;
+
+    width: 25px;
+    min-width: 25px;
+    max-width: 25px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    object-fit: cover;
+    border-radius: 5px;
+}
+.prediction-headerEndsDateCreateInput {
+    display: flex;
+
+    margin-left: auto;
+    white-space: nowrap;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    padding-top: 0;
+    padding-bottom: 0;
+
+    height: 19px;
+    min-height: 19px;
+    max-height: 19px;
+
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: var(--primary-bg-01);
+
+    outline: none;
+    border-radius: 3px;
+    border: solid 1px var(--primary-bg-08);
+    background-color: var(--secondary-bg-03);
+}
+.prediction-createPredictionErrorOccuredNotice {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-size: 0.7rem;
+    color: var(--primary-red-09);
+}
+.prediction-creatorSearchandTagPredictionContainer {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: 10px;
+
+    width: 55%;
+    min-width: 55%;
+    max-width: 55%;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    border-radius: 15px;
+    background-color: var(--secondary-bg-02);
+}
+.prediction-descriptionImgCreateContainer {
+    position: relative;
+    display: flex;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+
+    border-radius: 3px;
+    object-fit: contain;
+}
+.finulab-createPredictionOutcomesWrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.finulab-createPredictionOutcomesHeader {
+    margin-top: 48px;
+    margin-left: -16px;
+
+    width: calc(100% + 32px);
+    min-width: calc(100% + 32px);
+    max-width: calc(100% + 32px);
+
+    height: 1px;
+    min-height: 1px;
+    max-height: 1px;
+
+    background-color: var(--primary-bg-08);
+}
+.finulab-createPredictionOutcomesHeaderV2 {
+    margin-top: 10px;
+    margin-left: -16px;
+
+    width: calc(100% + 32px);
+    min-width: calc(100% + 32px);
+    max-width: calc(100% + 32px);
+
+    height: 1px;
+    min-height: 1px;
+    max-height: 1px;
+
+    background-color: var(--primary-bg-08);
+}
+.finulab-createPredictionOutcomesActualHeader {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-bg-05);
+}
+.prediction-descriptionCreateImg {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: auto;
+    min-height: auto;
+    max-height: auto;
+
+    border-radius: 5px;
+    object-fit: contain;
+}
+.prediction-descriptionImgCreateChangeLabel {
+    position: absolute;
+    right: 0px;
+    bottom: -5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+
+    border-radius: 50%;
+    border: solid 2px var(--primary-bg-01);
+    background-color: var(--secondary-bg-03);
+}
+.prediction-descriptionImgCreateChangeLabelIcon {
+    margin-top: 2px;
+    transform: scale(1.2);
+    color: var(--primary-bg-01);
+}
+.prediction-createaMarketTotalFinuxToLockCostContainer {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    white-space: nowrap;
+
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--primary-bg-01);
+}
+.prediction-createaMarketTotalFinuxToLockCostDesc {
+    white-space: nowrap;
+
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--primary-bg-01);
+}
+.prediction-createPredictionCostFunctionFinuxLogo {
+    width: 25px;
+    min-width: 25px;
+    max-width: 25px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    border-radius: 50%;
+    object-fit: contain;
+}
+.prediction-createDeleteOutcomeBtn {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+    margin-bottom: 5px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    padding-left: 3px;
+    padding-right: 3px;
+
+    width: 85px;
+    min-width: 85px;
+    max-width: 85px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+
+    outline: none;
+    border-radius: 3px;
+    border: solid 1px var(--primary-bg-10);
+    background-color: var(--primary-red-09);
+}
+.prediction-createDeleteOutcomeBtnIcon {
+    color: black;
+    transform: scale(0.75);
+}
+.prediction-createPredictionOutcomeErrorOccuredNotice {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    font-size: 0.7rem;
+    color: var(--primary-red-09);
+}
+.prediction-createPredictionOutcomeErrorOccuredFinalizationNotice {
+    display: flex;
+    align-items: center;
+
+    font-size: 0.7rem;
+    color: var(--primary-red-09);
+}
+.prediction-outcomeSpecificContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 16px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.prediction-outcomeSpecificHeaderContainer {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.prediction-specificOutcomePurchaseOptionsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 16px;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.prediction-viewAllBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 8px;
+
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--primary-bg-10);
+
+    border-radius: 20px;
+    background-color: var(--primary-bg-01);
+}
